@@ -1,0 +1,71 @@
+/*algemee opmaak: de opmaak die geldig is voor alles op mijn websites*/
+body{
+    /*background image zorgt voor een achtergrondfoto op mijn pagina
+     als url geef ik het pad op waar de foto zich bevindt*/
+     background-image: url(../Afbeelding/achtergrond.jpg);
+    /*het standaartlettertype is calibiri (of eventueel arial)*/
+    font-family:Calibri,Arial,sans-serif;
+    /*de standaart puntgrootte is 16 px*/
+    font-size: 16px;
+    /*de tekst wordt standaart uitgevuld*/
+    text-align: justify;
+}
+#container{
+    background-color: white;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1200px;
+}
+#banner img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+nav{
+    border-bottom: rgb(201, 201, 201) solid 1px;
+    overflow: hidden;
+}
+.item{
+
+    float: left;
+
+    line-height: 25px;
+
+
+
+
+    border: solid 1px rgb(204,204,204) ;
+
+    border-radius: 5px 5px 0px 0px;
+
+
+
+    font-size: 21px;
+
+    padding:2px 5px;
+
+
+
+    margin-bottom: -3px;
+
+    margin: 0px 2px;
+
+}
+
+.item a{
+
+    text-decoration: none;
+
+    color: black;
+
+}
+ asideç{
+    width: 25%;
+ }
+
+ main{
+    float: right;
+    width: 70%;
+ }
+
+ 
